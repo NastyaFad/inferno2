@@ -1,0 +1,94 @@
+.ReactModal__Content {
+    max-width: 1300px;
+    max-height: 660px;
+    margin: auto;
+    padding: 40px;
+}
+
+.ReactModal__Content h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.cart-items {
+    margin-top: 32px;
+    padding: 0px 110px;
+
+    display: flex;
+    grid-gap: 50px;
+}
+
+.cart-info {
+    width: 50%;
+}
+
+.cart-info h5 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.cart-info-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.cart-info-price p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.cart-info-price h6 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.promo {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.promo input {
+    outline: none;
+    padding: 16px;
+    width: 100%;
+    border: 1px solid gainsboro;
+    border-right: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.promo button {
+    width: 30%;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 16px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    transition: 0.35s;
+}
+
+.promo button:hover,
+.buy-btn:hover {
+    background: #3BD1F2;
+    cursor: pointer;
+}
+
+.buy-btn {
+    transition: 0.35s;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 16px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
